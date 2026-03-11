@@ -13,7 +13,7 @@ int main() {
 
     ingresarPesos(arregloPesos, cantidad);
 
-    double promedio = calcularPromedio(arregloPesos, cantidad);
+    double promedio = calcularPromedioSuma(arregloPesos, cantidad);
     double pesoTotal = promedio * cantidad;
 
     std::cout << "\n+-------- Resultados de Bodega --------+" << std::endl;
